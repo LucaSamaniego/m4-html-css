@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --color1: #0a2ff1;
+    --color2: #04146c;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 200px;
+    min-width: 1908px;
+    max-width: 1908px;
+    min-height: 428px;
+    max-height: 428px;
+}
+
+#primertext {
+    margin-bottom: 10px;
+}
+
+#title {
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-weight: 400;
+    
+}
+
+#prim {
+    font-size: 30pt;
+    color: var(--color1);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60pt;
+    color: var(--color1);
+}
+
+#sub {
+    font-size: 20pt;
+    color: var(--color2);
+    margin-bottom: 50px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+button {
+    font-weight: 700;
+    font-size: 22pt;
+    color: white;
+    background-color: var(--color1);
+    border: none;
+    width: 320px;
+    height: 60px;
+}
+
+#div-prim {
+    width: 50%;
+    justify-content: start;
+}
+
+#div-img {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+#img {
+    width: 100%;
+}
+
+#div-img2 {
+    position: absolute;
+    width: 450px;
+    height: 700px;
+    margin-bottom: 70px;
+}
+
+#img2 {
+    width: 100%;
+    height: 100%;
+    border: solid 3px var(--color1);
+    margin-left: 25%;
+}
