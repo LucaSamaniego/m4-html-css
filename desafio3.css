@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    top: 0;
+}
+
+:root {
+    --font1: 'Roboto', sans-serif;
+    --color1: #0a2ff1 ;
+    --color2: #04146c;
+    --color-fondo: #eff2ff;
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(./coolvetica-rg.otf);
+}
+
+body {
+    max-width: 1608px;
+    min-width: 1608px;
+    max-height: 428px;
+    min-height: 428px;
+}
+
+#title {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'coolvetica';
+    font-weight: 400;
+    font-size: 90pt;
+    color: var(--color1);
+}
+
+h2 {
+    font-family: var(--font1);
+    font-weight: 300;
+    font-size: 30pt;
+    color: var(--color2);
+}
+
+#subtitle {
+    margin-bottom: 50px;
+}
+
+span {
+    font-weight: 700;
+}
+
+#comentarios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h2 {
+    font-family: var(--font1);
+    font-weight: 300;
+    font-size: 18pt;
+    font-style: italic;
+    color: var(--color2);
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.h3, p {
+    font-family: var(--font1);
+    font-weight: 900;
+    font-size: 18pt;
+    color: var(--color2);
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 400;
+}
+
+.divcoment {
+    background-color: var(--color-fondo);
+    width: 25%;
+    padding: 1em;
+}
+
+img {
+    width: 30%;
+}
